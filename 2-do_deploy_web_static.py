@@ -4,7 +4,9 @@ The Fabric script that distributes an
 archive to web servers.
 """
 
-from fabric.api import put, run, env
+from fabric.api import env
+from fabric.api import put
+from fabric.api import run
 from os.path import exists
 env.hosts = ['142.44.167.228', '144.217.246.195']
 
